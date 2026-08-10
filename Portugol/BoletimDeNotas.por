@@ -8,8 +8,7 @@ programa {
     real nota
     cadeia status
 
-
-    //Informações ai ai c sabe
+    //Informações
     escreva ("\nNome do(a) aluno(a): ")
     leia (nome)
 
