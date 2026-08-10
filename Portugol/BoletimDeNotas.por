@@ -19,11 +19,11 @@ programa {
     leia (nota)
 
     //Condicionais
-    se (nota>=60 e nota<101) {
+    se (nota>=60 e nota<=100) {
       escreva ("\nEstá APROVADO!")
     } senao se (nota<40) {
       escreva ("\nEstá REPROVADO!")
-    } senao se (nota>=40 e nota<=59) {
+    } senao se (nota>=40 e nota<60) {
       escreva ("\nEstá de RECUPERAÇÃO!")
     } senao {
       escreva ("\nNúmero digitado inválido.")
