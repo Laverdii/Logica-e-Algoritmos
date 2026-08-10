@@ -1,0 +1,33 @@
+programa {
+  funcao inicio() {
+    escreva ("BOLETIM DE NOTAS")
+
+    //Strings
+    cadeia nome
+    cadeia disciplina
+    real nota
+    cadeia status
+
+
+    //Informações ai ai c sabe
+    escreva ("\nNome do(a) aluno(a): ")
+    leia (nome)
+
+    escreva("\nDisciplina do(a) aluno(a): ")
+    leia (disciplina)
+
+    escreva ("\nInsira a nota do(a) aluno(a): ")
+    leia (nota)
+
+    //Condicionais
+    se (nota>=60 e nota<101) {
+      escreva ("\nEstá APROVADO!")
+    } senao se (nota<40) {
+      escreva ("\nEstá REPROVADO!")
+    } senao se (nota>=40 e nota<=59) {
+      escreva ("\nEstá de RECUPERAÇÃO!")
+    } senao {
+      escreva ("\nNúmero digitado inválido.")
+    }
+  }
+}
