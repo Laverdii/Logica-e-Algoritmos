@@ -6,7 +6,6 @@ programa {
     cadeia nome
     cadeia disciplina
     real nota
-    cadeia status
 
     //Informações
     escreva ("\nNome do(a) aluno(a): ")
